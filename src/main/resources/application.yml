@@ -1,0 +1,32 @@
+spring:
+    profiles:
+        active: dev
+    application:
+        name: BusProject
+        version: 1.0.0
+---
+spring:
+    config:
+        activate:
+            on-profile: dev
+    datasource:
+        url: jdbc:postgresql://localhost:5432/shop
+        username: postgres
+        password: 1234
+        driver-class-name: org.postgresql.Driver
+        hikari:
+            maximum-pool-size: 20
+    
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        hibernate:
+            ddl-auto: update
+server:
+    port: 8080
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+server:
+    port: 9001
