@@ -2,6 +2,8 @@ package com.example.demo.controller;
 
 import java.util.List;
 
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -67,5 +69,15 @@ public class MainController {
         } else {
             return ResponseEntity.notFound().build();
         }
+    }
+
+    @GetMapping("/products/filter")
+    public ResponseEntity<Object> getProducts(
+            @RequestParam(required = false) String title,
+            @RequestParam(required = false) Integer min,
+            @RequestParam(required = false) Integer max,
+            @PageableDefault(page = 0, size = 10, sort = "title")
+            Pageable pageable) {
+        return ResponseEntity.ok(productService.getByFilter(title, min, max, pageable));
     }
 }

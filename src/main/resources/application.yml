@@ -10,10 +10,10 @@ spring:
         activate:
             on-profile: dev
     datasource:
-        url: jdbc:postgresql://localhost:5432/shop
+        url: jdbc:postgresql://localhost:5432/shoot
         username: postgres
-        password: 1234
-        driver-class-name: org.postgresql.Driver
+        password: Ghbdtn
+        driver-class-name: or   g.postgresql.Driver
         hikari:
             maximum-pool-size: 20
     
