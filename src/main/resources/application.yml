@@ -13,7 +13,7 @@ spring:
         url: jdbc:postgresql://localhost:5432/shoot
         username: postgres
         password: Ghbdtn
-        driver-class-name: or   g.postgresql.Driver
+        driver-class-name: org.postgresql.Driver
         hikari:
             maximum-pool-size: 20
     

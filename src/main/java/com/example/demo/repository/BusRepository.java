@@ -6,11 +6,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.model.Product;
+import com.example.demo.model.Bus;
 
 @Repository
-public interface ProductRepository 
-            extends JpaRepository<Product, Long>, JpaSpecificationExecutor<Product> {
-                List<Product> findByTitleContainingIgnoreCase(String title);
+public interface BusRepository 
+            extends JpaRepository<Bus, Long>, JpaSpecificationExecutor<Bus> {
+                List<Bus> findByModelContainingIgnoreCase(String model);
 
 }

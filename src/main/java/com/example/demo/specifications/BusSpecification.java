@@ -1,9 +1,9 @@
 package com.example.demo.specifications;
 import org.springframework.data.jpa.domain.Specification;
-import com.example.demo.model.Product;
+import com.example.demo.model.Bus;
 
-public class ProductSpecification {
-    private static Specification<Product> titleLike(String title) {
+public class BusSpecification {
+    private static Specification<Bus> titleLike(String title) {
         return (root, query, criteriaBuilder) -> {
             if (title == null || title.trim().isEmpty()) {
                 return null;
@@ -12,7 +12,7 @@ public class ProductSpecification {
                 criteriaBuilder.lower(root.get("title")), "%" + title.toLowerCase().trim() + "%");
         };
     }
-    private static Specification<Product> priceBetween(Integer min, Integer max) {
+    private static Specification<Bus> priceBetween(Integer min, Integer max) {
         return (root, query, criteriaBuilder) -> {
             if (min == null && max == null) {
                 return null;
@@ -25,7 +25,11 @@ public class ProductSpecification {
             }
         };
     }
-    public static Specification<Product> filter(String title, Integer min, Integer max) {
+    public static Specification<Bus> filter(String title, Integer min, Integer max) {
         return Specification.allOf(titleLike(title)).and(priceBetween(min, max));
+    }
+    public static Specification<Bus> filterByModel(String model) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'filterByModel'");
     }
 }

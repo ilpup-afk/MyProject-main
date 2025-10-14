@@ -15,30 +15,30 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.model.Product;
-import com.example.demo.service.ProductService;
+import com.example.demo.model.Bus;
+import com.example.demo.service.BusService;
 
 import jakarta.validation.Valid;
 
 @RestController
 public class MainController {
-    private final ProductService productService;
+    private final BusService productService;
 
-    public MainController(ProductService productService) {
+    public MainController(BusService productService) {
         this.productService = productService;
     }
 
     @GetMapping("/products")
-    public List<Product> getProducts(@RequestParam(required = false) String title) {
+    public List<Bus> getProducts(@RequestParam(required = false) String title) {
         if (title != null) {
-            return productService.getByTitle(title);
+            return productService.getByModel(title);
         }
         return productService.getAll();
     }
 
     @GetMapping("/products/{id}")
-    public ResponseEntity<Product> getProductById(@PathVariable Long id) {
-        Product product = productService.getById(id);
+    public ResponseEntity<Bus> getProductById(@PathVariable Long id) {
+        Bus product = productService.getById(id);
         if (product != null) {
             return ResponseEntity.ok(product);
         } else {
@@ -47,14 +47,14 @@ public class MainController {
     }
 
     @PostMapping("/products")
-    public ResponseEntity<Product> addProduct(@RequestBody @Valid Product product) {
-        Product createdProduct = productService.create(product);
+    public ResponseEntity<Bus> addProduct(@RequestBody @Valid Bus product) {
+        Bus createdProduct = productService.create(product);
         return ResponseEntity.status(HttpStatus.CREATED).body(createdProduct);
     }
 
     @PutMapping("/products/{id}")
-    public ResponseEntity<Product> updateProduct(@PathVariable Long id, @RequestBody @Valid Product updatedProduct) {
-        Product product = productService.updateById(id, updatedProduct);
+    public ResponseEntity<Bus> updateProduct(@PathVariable Long id, @RequestBody @Valid Bus updatedProduct) {
+        Bus product = productService.updateById(id, updatedProduct);
         if (product != null) {
             return ResponseEntity.ok(product);
         } else {
@@ -73,11 +73,11 @@ public class MainController {
 
     @GetMapping("/products/filter")
     public ResponseEntity<Object> getProducts(
-            @RequestParam(required = false) String title,
+            @RequestParam(required = false) String model,
             @RequestParam(required = false) Integer min,
             @RequestParam(required = false) Integer max,
-            @PageableDefault(page = 0, size = 10, sort = "title")
+            @PageableDefault(page = 0, size = 10, sort = "model")
             Pageable pageable) {
-        return ResponseEntity.ok(productService.getByFilter(title, min, max, pageable));
+        return ResponseEntity.ok(productService.getByFilter(model, pageable));
     }
 }
