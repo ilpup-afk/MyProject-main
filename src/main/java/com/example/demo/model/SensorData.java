@@ -2,8 +2,7 @@ package com.example.demo.model;
 
 import java.time.LocalDateTime;
 
-import com.example.demo.enums.SensorType;
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -25,7 +24,7 @@ public class SensorData {
     
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "bus_id")
-    @JsonBackReference
+    @JsonIgnore
     private Bus bus;
     
     @Enumerated(EnumType.STRING)

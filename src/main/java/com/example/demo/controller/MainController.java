@@ -2,18 +2,10 @@ package com.example.demo.controller;
 
 import java.util.List;
 
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.web.PageableDefault;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.example.demo.model.Bus;
 import com.example.demo.service.BusService;
@@ -21,63 +13,59 @@ import com.example.demo.service.BusService;
 import jakarta.validation.Valid;
 
 @RestController
+@RequestMapping("/api")
 public class MainController {
-    private final BusService productService;
+    private final BusService busService;
 
-    public MainController(BusService productService) {
-        this.productService = productService;
+    public MainController(BusService busService) {
+        this.busService = busService;
     }
 
-    @GetMapping("/products")
-    public List<Bus> getProducts(@RequestParam(required = false) String title) {
-        if (title != null) {
-            return productService.getByModel(title);
-        }
-        return productService.getAll();
+    @GetMapping("/buses")
+    public List<Bus> getBuses(@RequestParam(required = false) String model) {
+        return busService.getAll();
     }
 
-    @GetMapping("/products/{id}")
-    public ResponseEntity<Bus> getProductById(@PathVariable Long id) {
-        Bus product = productService.getById(id);
-        if (product != null) {
-            return ResponseEntity.ok(product);
+    @GetMapping("/buses/{id}")
+    public ResponseEntity<Bus> getBusById(@PathVariable Long id) {
+        Bus bus = busService.getById(id);
+        if (bus != null) {
+            return ResponseEntity.ok(bus);
         } else {
             return ResponseEntity.notFound().build();
         }
     }
 
-    @PostMapping("/products")
-    public ResponseEntity<Bus> addProduct(@RequestBody @Valid Bus product) {
-        Bus createdProduct = productService.create(product);
-        return ResponseEntity.status(HttpStatus.CREATED).body(createdProduct);
+    @PostMapping("/buses")
+    public ResponseEntity<Bus> addBus(@RequestBody @Valid Bus bus) {
+        // Убедимся, что ID null
+        bus.setId(null);
+        Bus createdBus = busService.create(bus);
+        return ResponseEntity.status(HttpStatus.CREATED).body(createdBus);
     }
 
-    @PutMapping("/products/{id}")
-    public ResponseEntity<Bus> updateProduct(@PathVariable Long id, @RequestBody @Valid Bus updatedProduct) {
-        Bus product = productService.updateById(id, updatedProduct);
-        if (product != null) {
-            return ResponseEntity.ok(product);
+    @PutMapping("/buses/{id}")
+    public ResponseEntity<Bus> updateBus(@PathVariable Long id, @RequestBody @Valid Bus updatedBus) {
+        Bus bus = busService.updateById(id, updatedBus);
+        if (bus != null) {
+            return ResponseEntity.ok(bus);
         } else {
             return ResponseEntity.notFound().build();
         }
     }
 
-    @DeleteMapping("/products/{id}")
-    public ResponseEntity<Void> deleteProduct(@PathVariable Long id) {
-        if (productService.deleteById(id)) {
+    @DeleteMapping("/buses/{id}")
+    public ResponseEntity<Void> deleteBus(@PathVariable Long id) {
+        if (busService.deleteById(id)) {
             return ResponseEntity.noContent().build();
         } else {
             return ResponseEntity.notFound().build();
         }
     }
 
-    @GetMapping("/products/filter")
-    public ResponseEntity<Object> getProducts(
-            @RequestParam(required = false) String model,
-            @RequestParam(required = false) Integer min,
-            @RequestParam(required = false) Integer max,
-            @PageableDefault(page = 0, size = 10, sort = "model")
-            Pageable pageable) {
-        return ResponseEntity.ok(productService.getByFilter(model, pageable));
+    // Простой endpoint для тестирования
+    @GetMapping("/test")
+    public String test() {
+        return "API работает!";
     }
 }

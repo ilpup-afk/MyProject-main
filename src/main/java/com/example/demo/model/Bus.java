@@ -3,7 +3,7 @@ package com.example.demo.model;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -16,8 +16,9 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+
 @Entity
-@Table(name = "products")
+@Table(name = "buses")
 public class Bus {
 
     @Id
@@ -25,13 +26,14 @@ public class Bus {
     private Long id;
 
     @Column(nullable = false, unique = true, length = 100)
-    @NotBlank(message = "Название пустое")
-    @Size(min = 2, max = 100, message = "Название должно быть от 2 до 100 символов")
+    @NotBlank(message = "Модель автобуса не может быть пустой")
+    @Size(min = 2, max = 100, message = "Модель должна быть от 2 до 100 символов")
     private String model;
 
-    @OneToMany(mappedBy = "bus", cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
-    @JsonManagedReference
-    private List<SensorData> lastReadings = new ArrayList<>();
+    // Временно упрощаем связь
+    @OneToMany(mappedBy = "bus", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
+    private List<SensorData> sensorData = new ArrayList<>();
 
     // Конструкторы
     public Bus() {}
@@ -47,17 +49,6 @@ public class Bus {
     public String getModel() { return model; }
     public void setModel(String model) { this.model = model; }
 
-    public List<SensorData> getLastReadings() { return lastReadings; }
-    public void setLastReadings(List<SensorData> lastReadings) { this.lastReadings = lastReadings; }
-
-    // Вспомогательные методы для управления связью
-    public void addSensorData(SensorData data) {
-        lastReadings.add(data);
-        data.setBus(this);
-    }
-
-    public void removeSensorData(SensorData data) {
-        lastReadings.remove(data);
-        data.setBus(null);
-    }
+    public List<SensorData> getSensorData() { return sensorData; }
+    public void setSensorData(List<SensorData> sensorData) { this.sensorData = sensorData; }
 }
