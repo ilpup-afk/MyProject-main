@@ -1,81 +1,83 @@
 package com.example.demo.service;
 
-import com.example.demo.dto.SensorDataDTO;
-import com.example.demo.model.SensorData;
-import com.example.demo.model.Bus;
-import com.example.demo.repository.SensorDataRepository;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDateTime;
 import java.util.List;
+import com.example.demo.model.SensorData;
+import com.example.demo.model.SensorType;
+import com.example.demo.repository.SensorDataRepository;
 
 @Service
-@Transactional(readOnly = true)
 public class SensorService {
-    
     private final SensorDataRepository sensorDataRepository;
-    private final BusService busService;
-    
-    public SensorService(SensorDataRepository sensorDataRepository, BusService busService) {
+
+    public SensorService(SensorDataRepository sensorDataRepository) {
         this.sensorDataRepository = sensorDataRepository;
-        this.busService = busService;
     }
-    
-    public SensorData processSensorData(SensorDataDTO sensorDataDTO) {
-        // Находим автобус
-        Bus bus = busService.getById(sensorDataDTO.getBusId());
-        if (bus == null) {
-            throw new IllegalArgumentException("Автобус с ID " + sensorDataDTO.getBusId() + " не найден");
-        }
-        
-        // Создаем и сохраняем данные датчика
-        SensorData sensorData = new SensorData();
-        sensorData.setBus(bus);
-        sensorData.setSensorType(sensorDataDTO.getSensorType());
-        sensorData.setValue(sensorDataDTO.getValue());
-        sensorData.setTimestamp(LocalDateTime.now());
-        sensorData.setAnomaly(detectAnomaly(sensorDataDTO));
-        
+
+    public List<SensorData> getAll() {
+        return sensorDataRepository.findAll();
+    }
+
+    public List<SensorData> saveAllSensorData(List<SensorData> sensorDataList) {
+    return sensorDataRepository.saveAll(sensorDataList);
+    }
+
+    public SensorData getSensorData(Long id) {
+        return sensorDataRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Sensor data not found"));
+    }
+
+    public SensorData createSensorData(SensorData sensorData) {
         return sensorDataRepository.save(sensorData);
     }
-    
-    public List<SensorData> getSensorHistory(Long busId) {
+
+    public SensorData updateSensorData(Long id, SensorData updatedSensorData) {
+        return sensorDataRepository.findById(id)
+                .map(sensorData -> {
+                    sensorData.setBus(updatedSensorData.getBus());
+                    sensorData.setSensorType(updatedSensorData.getSensorType());
+                    sensorData.setValue(updatedSensorData.getValue());
+                    sensorData.setTimestamp(updatedSensorData.getTimestamp());
+                    sensorData.setAnomaly(updatedSensorData.isAnomaly());
+                    return sensorDataRepository.save(sensorData);
+                })
+                .orElse(null);
+            }
+
+    public boolean deleteSensorData(Long id) {
+        if (sensorDataRepository.existsById(id)) {
+            sensorDataRepository.deleteById(id);
+            return true;
+        }
+        return false;
+    }
+
+    public List<SensorData> getSensorDataByBusId(Long busId) {
         return sensorDataRepository.findByBusId(busId);
     }
-    
-    public List<SensorData> getAnomalies() {
-        return sensorDataRepository.findByAnomalyTrue();
+
+    public void addFileToSensorData(Long sensorDataId, String filePath) {
+        SensorData sensorData = sensorDataRepository.findById(sensorDataId)
+                .orElseThrow(() -> new RuntimeException("Sensor data not found"));
+
+        sensorData.setFilePath(filePath);
+        sensorDataRepository.save(sensorData);
     }
-    
-    public List<SensorData> getLatestReadings(Long busId) {
-        return sensorDataRepository.findLatestByBusId(busId);
-    }
-    
-    private boolean detectAnomaly(SensorDataDTO data) {
-        if (data.getSensorType() == null || data.getValue() == null) {
+
+    public boolean checkForAnomaly(SensorData sensorData) {
+    SensorType type = sensorData.getSensorType();
+    Double value = sensorData.getValue();
+
+    switch (type) {
+        case ENGINE_TEMP:
+            return value > 100.0 || value < 60.0;
+        case TIRE_PRESSURE:
+            return value > 3.5 || value < 1.8;
+        case FUEL_LEVEL:
+            return value < 5.0;
+        default:
             return false;
         }
-        
-        switch(data.getSensorType()) {
-            case ENGINE_TEMP:
-                return data.getValue() > 95.0;
-            case TIRE_PRESSURE:
-                return data.getValue() < 2.2 || data.getValue() > 2.8;
-            case FUEL_LEVEL:
-                return data.getValue() < 15.0;
-            default:
-                return false;
-        }
-    }
-    
-    @Transactional
-    public SensorData saveSensorData(SensorData sensorData) {
-        return sensorDataRepository.save(sensorData);
-    }
-    
-    @Transactional
-    public List<SensorData> saveAllSensorData(List<SensorData> sensorDataList) {
-        return sensorDataRepository.saveAll(sensorDataList);
     }
 }
