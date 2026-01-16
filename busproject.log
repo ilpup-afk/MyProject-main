@@ -1,0 +1,1132 @@
+2026-01-16T12:29:39.939+03:00  INFO 9012 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 9012 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T12:29:40.016+03:00  INFO 9012 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T12:29:40.166+03:00  INFO 9012 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T12:29:40.171+03:00  INFO 9012 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T12:29:43.453+03:00  INFO 9012 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T12:29:43.618+03:00  INFO 9012 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 6 JPA repository interfaces.
+2026-01-16T12:29:45.033+03:00  INFO 9012 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T12:29:45.069+03:00  INFO 9012 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T12:29:45.070+03:00  INFO 9012 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T12:29:45.180+03:00  INFO 9012 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T12:29:45.181+03:00  INFO 9012 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5008 ms
+2026-01-16T12:29:45.645+03:00  INFO 9012 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T12:29:45.792+03:00  INFO 9012 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T12:29:45.908+03:00  INFO 9012 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T12:29:46.438+03:00  INFO 9012 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T12:29:46.539+03:00  INFO 9012 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T12:29:46.912+03:00  INFO 9012 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6383dd73
+2026-01-16T12:29:46.915+03:00  INFO 9012 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T12:29:47.051+03:00  WARN 9012 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T12:29:47.109+03:00  INFO 9012 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T12:29:49.392+03:00  INFO 9012 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T12:29:49.604+03:00  INFO 9012 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T12:29:50.679+03:00  INFO 9012 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T12:29:51.169+03:00  WARN 9012 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T12:29:51.417+03:00  INFO 9012 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T12:29:53.203+03:00  INFO 9012 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T12:29:53.288+03:00  INFO 9012 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T12:29:53.323+03:00  INFO 9012 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 14.24 seconds (process running for 15.002)
+2026-01-16T12:30:03.448+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T12:30:03.448+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T12:30:03.452+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-16T12:30:14.577+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T12:30:14.692+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/index.html [GET] in 83 ms[0m
+2026-01-16T12:30:14.709+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T12:30:14.709+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T12:30:14.710+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T12:30:14.713+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T12:30:14.713+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T12:30:14.744+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui.css [GET] in 34 ms[0m
+2026-01-16T12:30:14.846+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/index.css [GET] in 133 ms[0m
+2026-01-16T12:30:14.778+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 68 ms[0m
+2026-01-16T12:30:14.821+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 112 ms[0m
+2026-01-16T12:30:14.923+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-initializer.js [GET] in 210 ms[0m
+2026-01-16T12:30:15.409+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T12:30:15.423+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-16T12:30:15.453+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/favicon-32x32.png [GET] in 23 ms[0m
+2026-01-16T12:30:15.604+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs/swagger-config [GET] in 195 ms[0m
+2026-01-16T12:30:15.640+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-10] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs [GET][0m
+2026-01-16T12:30:17.307+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1611 ms
+2026-01-16T12:30:17.424+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-10] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs [GET] in 1783 ms[0m
+2026-01-16T12:30:26.269+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T12:30:26.274+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/index.html [GET] in 7 ms[0m
+2026-01-16T12:30:26.323+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T12:30:26.333+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T12:30:26.349+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T12:30:26.351+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T12:30:26.354+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T12:30:26.404+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui.css [GET] in 81 ms[0m
+2026-01-16T12:30:26.422+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/index.css [GET] in 88 ms[0m
+2026-01-16T12:30:26.442+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 93 ms[0m
+2026-01-16T12:30:26.484+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 133 ms[0m
+2026-01-16T12:30:26.540+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-initializer.js [GET] in 186 ms[0m
+2026-01-16T12:30:26.983+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T12:30:26.986+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs/swagger-config [GET] in 3 ms[0m
+2026-01-16T12:30:27.012+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs [GET][0m
+2026-01-16T12:30:27.056+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs [GET] in 44 ms[0m
+2026-01-16T12:31:30.821+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [32mUser: anonymousUser requested URL: /api/auth/login [POST][0m
+2026-01-16T12:31:31.742+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-4] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T12:31:31.955+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 1134 ms[0m
+2026-01-16T12:31:41.853+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: / [GET][0m
+2026-01-16T12:31:41.853+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: / [GET] in 0 ms[0m
+2026-01-16T12:31:41.921+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: /index.html [GET][0m
+2026-01-16T12:31:41.938+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: /index.html [GET] in 17 ms[0m
+2026-01-16T12:31:43.123+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /products [GET][0m
+2026-01-16T12:31:43.190+03:00  WARN 9012 --- [BusProject] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products.]
+2026-01-16T12:31:43.204+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /favicon.ico [GET][0m
+2026-01-16T12:31:43.221+03:00  WARN 9012 --- [BusProject] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-01-16T12:50:19.433+03:00  INFO 9012 --- [BusProject] [http-nio-8080-exec-9] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xe00x010x000x060xdc0x030x030xbdD0x8c0xbd0xb60xe40x17VTid*<%0xda0xa60xb4T0x140xb90x9e$r0xae0xb60x15D0xd2y0x1arU ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:402) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2026-01-16T14:06:28.657+03:00  WARN 9012 --- [BusProject] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m41s337ms854µs400ns).
+2026-01-16T15:38:33.881+03:00  WARN 9012 --- [BusProject] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m34s117ms401µs600ns).
+2026-01-16T15:57:17.727+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 18256 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T15:57:17.738+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T15:57:17.884+03:00  INFO 18256 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T15:57:17.888+03:00  INFO 18256 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T15:57:20.546+03:00  INFO 18256 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T15:57:20.773+03:00  INFO 18256 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 186 ms. Found 6 JPA repository interfaces.
+2026-01-16T15:57:23.306+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T15:57:23.331+03:00  INFO 18256 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T15:57:23.333+03:00  INFO 18256 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T15:57:23.411+03:00  INFO 18256 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T15:57:23.412+03:00  INFO 18256 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5473 ms
+2026-01-16T15:57:24.000+03:00  INFO 18256 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T15:57:24.078+03:00  INFO 18256 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T15:57:24.170+03:00  INFO 18256 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T15:57:24.739+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T15:57:24.807+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T15:57:25.027+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f2d0ca6
+2026-01-16T15:57:25.029+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T15:57:25.105+03:00  WARN 18256 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T15:57:25.164+03:00  INFO 18256 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T15:57:26.706+03:00  INFO 18256 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T15:57:26.879+03:00  INFO 18256 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T15:57:28.254+03:00  INFO 18256 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T15:57:28.760+03:00  WARN 18256 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T15:57:28.839+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T15:57:29.818+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T15:57:29.878+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T15:57:29.909+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 13.173 seconds (process running for 13.768)
+2026-01-16T15:58:02.845+03:00  INFO 18256 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T15:58:02.857+03:00  INFO 18256 --- [BusProject] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T15:58:03.215+03:00  INFO 18256 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T15:58:03.227+03:00  INFO 18256 --- [BusProject] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T15:58:03.244+03:00  INFO 18256 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-16T15:58:03.328+03:00  INFO 18256 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-16T15:58:03.700+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 18256 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T15:58:03.704+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T15:58:05.102+03:00  INFO 18256 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T15:58:05.308+03:00  INFO 18256 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 6 JPA repository interfaces.
+2026-01-16T15:58:05.927+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T15:58:05.944+03:00  INFO 18256 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T15:58:05.959+03:00  INFO 18256 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T15:58:06.080+03:00  INFO 18256 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T15:58:06.094+03:00  INFO 18256 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2356 ms
+2026-01-16T15:58:06.295+03:00  INFO 18256 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T15:58:06.302+03:00  INFO 18256 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T15:58:06.369+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T15:58:06.377+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-16T15:58:06.528+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@75e4d9de
+2026-01-16T15:58:06.534+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-16T15:58:06.546+03:00  WARN 18256 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T15:58:06.553+03:00  INFO 18256 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T15:58:06.997+03:00  INFO 18256 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T15:58:07.103+03:00  INFO 18256 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T15:58:07.390+03:00  INFO 18256 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T15:58:07.568+03:00  WARN 18256 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T15:58:07.594+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T15:58:08.008+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T15:58:08.057+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T15:58:08.064+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.529 seconds (process running for 51.923)
+2026-01-16T15:58:08.069+03:00  INFO 18256 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T15:58:09.467+03:00  INFO 18256 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T15:58:09.565+03:00  INFO 18256 --- [BusProject] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T15:58:10.034+03:00  INFO 18256 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T15:58:10.037+03:00  INFO 18256 --- [BusProject] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T15:58:10.040+03:00  INFO 18256 --- [BusProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-01-16T15:58:10.055+03:00  INFO 18256 --- [BusProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-01-16T15:58:10.268+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 18256 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T15:58:10.282+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T15:58:10.846+03:00  INFO 18256 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T15:58:10.939+03:00  INFO 18256 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 6 JPA repository interfaces.
+2026-01-16T15:58:11.193+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T15:58:11.198+03:00  INFO 18256 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T15:58:11.234+03:00  INFO 18256 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T15:58:11.292+03:00  INFO 18256 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T15:58:11.293+03:00  INFO 18256 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 981 ms
+2026-01-16T15:58:11.366+03:00  INFO 18256 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T15:58:11.370+03:00  INFO 18256 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T15:58:11.411+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T15:58:11.413+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-01-16T15:58:11.514+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@33a4cbf4
+2026-01-16T15:58:11.526+03:00  INFO 18256 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-01-16T15:58:11.536+03:00  WARN 18256 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T15:58:11.538+03:00  INFO 18256 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T15:58:11.824+03:00  INFO 18256 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T15:58:11.913+03:00  INFO 18256 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T15:58:12.190+03:00  INFO 18256 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T15:58:12.397+03:00  WARN 18256 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T15:58:12.415+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T15:58:12.698+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T15:58:12.735+03:00  INFO 18256 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T15:58:12.758+03:00  INFO 18256 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.589 seconds (process running for 56.617)
+2026-01-16T15:58:12.764+03:00  INFO 18256 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T15:58:37.811+03:00  INFO 17804 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 17804 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T15:58:37.825+03:00  INFO 17804 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T15:58:37.973+03:00  INFO 17804 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T15:58:37.975+03:00  INFO 17804 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T15:58:40.198+03:00  INFO 17804 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T15:58:40.371+03:00  INFO 17804 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 6 JPA repository interfaces.
+2026-01-16T15:58:41.575+03:00  INFO 17804 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T15:58:41.612+03:00  INFO 17804 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T15:58:41.612+03:00  INFO 17804 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T15:58:41.731+03:00  INFO 17804 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T15:58:41.732+03:00  INFO 17804 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3751 ms
+2026-01-16T15:58:42.012+03:00  INFO 17804 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T15:58:42.121+03:00  INFO 17804 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T15:58:42.197+03:00  INFO 17804 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T15:58:42.677+03:00  INFO 17804 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T15:58:42.737+03:00  INFO 17804 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T15:58:43.044+03:00  INFO 17804 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18b09ecb
+2026-01-16T15:58:43.047+03:00  INFO 17804 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T15:58:43.127+03:00  WARN 17804 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T15:58:43.166+03:00  INFO 17804 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T15:58:45.767+03:00  INFO 17804 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T15:58:45.934+03:00  INFO 17804 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T15:58:47.559+03:00  INFO 17804 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T15:58:47.944+03:00  WARN 17804 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T15:58:48.004+03:00  INFO 17804 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T15:58:49.372+03:00  INFO 17804 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T15:58:49.428+03:00  INFO 17804 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T15:58:49.456+03:00  INFO 17804 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 12.571 seconds (process running for 13.385)
+2026-01-16T15:58:59.993+03:00  INFO 15024 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 15024 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T15:59:00.013+03:00  INFO 15024 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T15:59:00.207+03:00  INFO 15024 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T15:59:00.223+03:00  INFO 15024 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T15:59:03.094+03:00  INFO 15024 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T15:59:03.499+03:00  INFO 15024 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 226 ms. Found 6 JPA repository interfaces.
+2026-01-16T15:59:05.746+03:00  INFO 15024 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T15:59:05.802+03:00  INFO 15024 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T15:59:05.804+03:00  INFO 15024 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T15:59:05.945+03:00  INFO 15024 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T15:59:05.947+03:00  INFO 15024 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5719 ms
+2026-01-16T15:59:06.351+03:00  INFO 15024 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T15:59:06.496+03:00  INFO 15024 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T15:59:06.603+03:00  INFO 15024 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T15:59:07.342+03:00  INFO 15024 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T15:59:07.430+03:00  INFO 15024 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T15:59:07.789+03:00  INFO 15024 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f2d0ca6
+2026-01-16T15:59:07.795+03:00  INFO 15024 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T15:59:07.940+03:00  WARN 15024 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T15:59:08.067+03:00  INFO 15024 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T15:59:10.224+03:00  INFO 15024 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T15:59:10.460+03:00  INFO 15024 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T15:59:12.034+03:00  INFO 15024 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T15:59:12.544+03:00  WARN 15024 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T15:59:12.704+03:00  INFO 15024 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T15:59:14.314+03:00  WARN 15024 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-01-16T15:59:14.406+03:00  WARN 15024 --- [BusProject] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-01-16T15:59:14.435+03:00  INFO 15024 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T15:59:14.460+03:00  INFO 15024 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-16T15:59:14.569+03:00  INFO 15024 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-16T15:59:14.667+03:00  INFO 15024 --- [BusProject] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-16T15:59:14.739+03:00 ERROR 15024 --- [BusProject] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-01-16T16:00:13.673+03:00  INFO 12664 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 12664 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:00:13.677+03:00  INFO 12664 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:00:13.828+03:00  INFO 12664 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:00:13.838+03:00  INFO 12664 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:00:16.159+03:00  INFO 12664 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:00:16.313+03:00  INFO 12664 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:00:17.727+03:00  INFO 12664 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:00:17.785+03:00  INFO 12664 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:00:17.793+03:00  INFO 12664 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:00:17.916+03:00  INFO 12664 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:00:17.919+03:00  INFO 12664 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4077 ms
+2026-01-16T16:00:18.239+03:00  INFO 12664 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:00:18.340+03:00  INFO 12664 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T16:00:18.424+03:00  INFO 12664 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:00:18.892+03:00  INFO 12664 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:00:18.964+03:00  INFO 12664 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T16:00:19.240+03:00  INFO 12664 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31eb34cb
+2026-01-16T16:00:19.243+03:00  INFO 12664 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T16:00:19.307+03:00  WARN 12664 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:00:19.371+03:00  INFO 12664 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:00:21.442+03:00  INFO 12664 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:00:21.614+03:00  INFO 12664 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:00:23.066+03:00  INFO 12664 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:00:24.156+03:00  WARN 12664 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:00:24.253+03:00  INFO 12664 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:00:25.652+03:00  INFO 12664 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:00:25.747+03:00  INFO 12664 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:00:25.789+03:00  INFO 12664 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 12.884 seconds (process running for 13.437)
+2026-01-16T16:01:06.688+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T16:01:06.690+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T16:01:06.699+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-01-16T16:01:06.785+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T16:01:06.865+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/index.html [GET] in 50 ms[0m
+2026-01-16T16:01:06.873+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T16:01:06.883+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T16:01:06.883+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T16:01:06.890+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T16:01:06.894+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/index.css [GET] in 21 ms[0m
+2026-01-16T16:01:06.913+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 30 ms[0m
+2026-01-16T16:01:06.963+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 80 ms[0m
+2026-01-16T16:01:06.971+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T16:01:07.033+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-initializer.js [GET] in 143 ms[0m
+2026-01-16T16:01:07.092+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui.css [GET] in 121 ms[0m
+2026-01-16T16:01:08.039+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T16:01:08.214+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs/swagger-config [GET] in 175 ms[0m
+2026-01-16T16:01:08.237+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs [GET][0m
+2026-01-16T16:01:09.575+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1281 ms
+2026-01-16T16:01:09.734+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs [GET] in 1497 ms[0m
+2026-01-16T16:01:37.863+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [32mUser: anonymousUser requested URL: /api/auth/login [POST][0m
+2026-01-16T16:01:38.574+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-8] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:01:38.767+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 903 ms[0m
+2026-01-16T16:01:41.951+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T16:01:41.964+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.html [GET] in 13 ms[0m
+2026-01-16T16:01:42.024+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-10] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T16:01:42.037+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T16:01:42.044+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T16:01:42.064+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui.css [GET] in 20 ms[0m
+2026-01-16T16:01:42.052+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-10] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.css [GET] in 28 ms[0m
+2026-01-16T16:01:42.056+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 19 ms[0m
+2026-01-16T16:01:42.821+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T16:01:42.832+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T16:01:42.841+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-initializer.js [GET] in 9 ms[0m
+2026-01-16T16:01:42.841+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 20 ms[0m
+2026-01-16T16:01:43.025+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T16:01:43.028+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /v3/api-docs/swagger-config [GET] in 2 ms[0m
+2026-01-16T16:01:43.070+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /v3/api-docs [GET][0m
+2026-01-16T16:01:43.086+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /v3/api-docs [GET] in 15 ms[0m
+2026-01-16T16:01:44.900+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: / [GET][0m
+2026-01-16T16:01:44.901+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: / [GET] in 1 ms[0m
+2026-01-16T16:01:44.966+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: /index.html [GET][0m
+2026-01-16T16:01:44.972+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: /index.html [GET] in 7 ms[0m
+2026-01-16T16:01:45.969+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /products [GET][0m
+2026-01-16T16:01:46.002+03:00  WARN 12664 --- [BusProject] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products.]
+2026-01-16T16:01:46.088+03:00  INFO 12664 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: admin requested URL: /favicon.ico [GET][0m
+2026-01-16T16:01:46.106+03:00  WARN 12664 --- [BusProject] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-01-16T16:03:07.972+03:00  INFO 12664 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:03:07.978+03:00  INFO 12664 --- [BusProject] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:03:08.175+03:00  INFO 12664 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:03:08.184+03:00  INFO 12664 --- [BusProject] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:03:08.207+03:00  INFO 12664 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-16T16:03:08.225+03:00  INFO 12664 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-16T16:03:08.496+03:00  INFO 12664 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 12664 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:03:08.497+03:00  INFO 12664 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:03:09.955+03:00  INFO 12664 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:03:10.024+03:00  INFO 12664 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:03:10.260+03:00  INFO 12664 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:03:10.261+03:00  INFO 12664 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:03:10.262+03:00  INFO 12664 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:03:10.314+03:00  INFO 12664 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:03:10.315+03:00  INFO 12664 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1806 ms
+2026-01-16T16:03:10.430+03:00  INFO 12664 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:03:10.434+03:00  INFO 12664 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:03:10.492+03:00  INFO 12664 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:03:10.494+03:00  INFO 12664 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-16T16:03:10.564+03:00  INFO 12664 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@37f52551
+2026-01-16T16:03:10.565+03:00  INFO 12664 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-16T16:03:10.575+03:00  WARN 12664 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:03:10.578+03:00  INFO 12664 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:03:29.409+03:00  INFO 16076 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 16076 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:03:29.414+03:00  INFO 16076 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:03:29.508+03:00  INFO 16076 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:03:29.512+03:00  INFO 16076 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:03:37.107+03:00  INFO 16200 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 16200 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:03:37.113+03:00  INFO 16200 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:03:37.242+03:00  INFO 16200 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:03:37.254+03:00  INFO 16200 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:03:39.394+03:00  INFO 16200 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:03:39.601+03:00  INFO 16200 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:03:40.880+03:00  INFO 16200 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:03:40.905+03:00  INFO 16200 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:03:40.919+03:00  INFO 16200 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:03:41.063+03:00  INFO 16200 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:03:41.065+03:00  INFO 16200 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3810 ms
+2026-01-16T16:03:41.377+03:00  INFO 16200 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:03:41.469+03:00  INFO 16200 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T16:03:41.526+03:00  INFO 16200 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:03:41.869+03:00  INFO 16200 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:03:41.933+03:00  INFO 16200 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T16:03:42.205+03:00  INFO 16200 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10e018b8
+2026-01-16T16:03:42.211+03:00  INFO 16200 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T16:03:42.285+03:00  WARN 16200 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:03:42.325+03:00  INFO 16200 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:03:43.581+03:00  INFO 16200 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:03:43.711+03:00  INFO 16200 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:03:44.728+03:00  INFO 16200 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:03:45.008+03:00  WARN 16200 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:03:45.089+03:00  INFO 16200 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:03:46.105+03:00  INFO 16200 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:03:46.178+03:00  INFO 16200 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:03:46.210+03:00  INFO 16200 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 9.782 seconds (process running for 10.28)
+2026-01-16T16:03:56.177+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T16:03:56.178+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T16:03:56.180+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-16T16:03:56.663+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: / [GET][0m
+2026-01-16T16:03:56.674+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: / [GET] in 7 ms[0m
+2026-01-16T16:03:56.714+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /index.html [GET][0m
+2026-01-16T16:03:56.760+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /index.html [GET] in 45 ms[0m
+2026-01-16T16:03:57.295+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: admin requested URL: /products [GET][0m
+2026-01-16T16:03:57.377+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /favicon.ico [GET][0m
+2026-01-16T16:03:57.470+03:00  WARN 16200 --- [BusProject] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-01-16T16:03:57.473+03:00  WARN 16200 --- [BusProject] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products.]
+2026-01-16T16:04:01.221+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T16:04:01.257+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.html [GET] in 36 ms[0m
+2026-01-16T16:04:01.308+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T16:04:01.311+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T16:04:01.338+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T16:04:01.361+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T16:04:01.374+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T16:04:01.389+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui.css [GET] in 81 ms[0m
+2026-01-16T16:04:01.405+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.css [GET] in 94 ms[0m
+2026-01-16T16:04:01.428+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 90 ms[0m
+2026-01-16T16:04:01.587+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-initializer.js [GET] in 226 ms[0m
+2026-01-16T16:04:01.645+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 272 ms[0m
+2026-01-16T16:04:02.455+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-10] Request                                  : [34mUser: admin requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T16:04:02.455+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-16T16:04:02.461+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /swagger-ui/favicon-32x32.png [GET] in 6 ms[0m
+2026-01-16T16:04:02.505+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-10] Response                                 : [34mUser: admin completed URL: /v3/api-docs/swagger-config [GET] in 50 ms[0m
+2026-01-16T16:04:02.627+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /v3/api-docs [GET][0m
+2026-01-16T16:04:03.320+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 658 ms
+2026-01-16T16:04:03.434+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /v3/api-docs [GET] in 807 ms[0m
+2026-01-16T16:04:18.686+03:00  INFO 16200 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:04:18.819+03:00  WARN 16200 --- [BusProject] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User not found]
+2026-01-16T16:12:40.461+03:00  INFO 19356 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 19356 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:12:40.471+03:00  INFO 19356 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:12:40.604+03:00  INFO 19356 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:12:40.611+03:00  INFO 19356 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:12:43.658+03:00  INFO 19356 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:12:43.828+03:00  INFO 19356 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:12:45.295+03:00  INFO 19356 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:12:45.342+03:00  INFO 19356 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:12:45.344+03:00  INFO 19356 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:12:45.510+03:00  INFO 19356 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:12:45.511+03:00  INFO 19356 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4899 ms
+2026-01-16T16:12:45.888+03:00  INFO 19356 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:12:45.979+03:00  INFO 19356 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T16:12:46.058+03:00  INFO 19356 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:12:55.006+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 17088 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:12:55.032+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:12:55.195+03:00  INFO 17088 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:12:55.199+03:00  INFO 17088 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:12:57.116+03:00  INFO 17088 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:12:57.268+03:00  INFO 17088 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:12:58.270+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:12:58.289+03:00  INFO 17088 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:12:58.294+03:00  INFO 17088 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:12:58.409+03:00  INFO 17088 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:12:58.410+03:00  INFO 17088 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3209 ms
+2026-01-16T16:12:58.679+03:00  INFO 17088 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:12:58.762+03:00  INFO 17088 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T16:12:58.831+03:00  INFO 17088 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:12:59.244+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:12:59.318+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T16:12:59.580+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58fca139
+2026-01-16T16:12:59.582+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T16:12:59.638+03:00  WARN 17088 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:12:59.692+03:00  INFO 17088 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:13:01.148+03:00  INFO 17088 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:13:01.317+03:00  INFO 17088 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:13:02.806+03:00  INFO 17088 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:13:03.214+03:00  WARN 17088 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:13:03.277+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:13:04.382+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:13:04.451+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:13:04.486+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 10.48 seconds (process running for 11.496)
+2026-01-16T16:13:09.026+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T16:13:09.026+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T16:13:09.028+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-16T16:13:09.495+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T16:13:09.570+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.html [GET] in 37 ms[0m
+2026-01-16T16:13:09.596+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T16:13:09.622+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T16:13:09.632+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T16:13:09.644+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T16:13:09.656+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.css [GET] in 59 ms[0m
+2026-01-16T16:13:09.681+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 49 ms[0m
+2026-01-16T16:13:09.700+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 77 ms[0m
+2026-01-16T16:13:09.745+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-initializer.js [GET] in 101 ms[0m
+2026-01-16T16:13:09.802+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T16:13:09.816+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui.css [GET] in 14 ms[0m
+2026-01-16T16:13:10.584+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-16T16:13:10.609+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: admin completed URL: /swagger-ui/favicon-32x32.png [GET] in 25 ms[0m
+2026-01-16T16:13:10.609+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T16:13:10.814+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: /v3/api-docs/swagger-config [GET] in 204 ms[0m
+2026-01-16T16:13:10.881+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: admin requested URL: /v3/api-docs [GET][0m
+2026-01-16T16:13:11.833+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 906 ms
+2026-01-16T16:13:11.940+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [34mUser: admin completed URL: /v3/api-docs [GET] in 1058 ms[0m
+2026-01-16T16:13:34.372+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:13:34.824+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-9] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:13:34.938+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 566 ms[0m
+2026-01-16T16:13:43.026+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-10] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:13:43.360+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-10] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:13:43.397+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-10] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 371 ms[0m
+2026-01-16T16:13:44.098+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:13:44.455+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-4] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:13:44.484+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 386 ms[0m
+2026-01-16T16:13:44.563+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:13:44.860+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:13:44.883+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 320 ms[0m
+2026-01-16T16:13:45.098+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:13:45.427+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-3] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:13:45.460+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 362 ms[0m
+2026-01-16T16:13:45.579+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:13:45.927+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-5] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:13:45.967+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 388 ms[0m
+2026-01-16T16:15:50.298+03:00  INFO 17088 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:15:50.302+03:00  INFO 17088 --- [BusProject] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:15:50.528+03:00  INFO 17088 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:15:50.539+03:00  INFO 17088 --- [BusProject] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:15:50.545+03:00  INFO 17088 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-16T16:15:50.559+03:00  INFO 17088 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-16T16:15:50.741+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 17088 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:15:50.752+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:15:51.555+03:00  INFO 17088 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:15:51.664+03:00  INFO 17088 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:15:51.989+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:15:51.990+03:00  INFO 17088 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:15:51.991+03:00  INFO 17088 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:15:52.027+03:00  INFO 17088 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:15:52.028+03:00  INFO 17088 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1258 ms
+2026-01-16T16:15:52.327+03:00  INFO 17088 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:15:52.336+03:00  INFO 17088 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:15:52.376+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:15:52.393+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-16T16:15:52.477+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1a713eed
+2026-01-16T16:15:52.478+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-16T16:15:52.490+03:00  WARN 17088 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:15:52.500+03:00  INFO 17088 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:15:53.526+03:00  INFO 17088 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:15:53.694+03:00  INFO 17088 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:15:54.459+03:00  INFO 17088 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:15:54.789+03:00  WARN 17088 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:15:54.842+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:15:55.388+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:15:55.472+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:15:55.525+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.849 seconds (process running for 182.534)
+2026-01-16T16:15:55.555+03:00  INFO 17088 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T16:15:56.904+03:00  INFO 17088 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:15:56.906+03:00  INFO 17088 --- [BusProject] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:15:57.143+03:00  INFO 17088 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:15:57.146+03:00  INFO 17088 --- [BusProject] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:15:57.148+03:00  INFO 17088 --- [BusProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-01-16T16:15:57.154+03:00  INFO 17088 --- [BusProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-01-16T16:15:57.306+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 17088 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:15:57.307+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:15:57.759+03:00  INFO 17088 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:15:57.820+03:00  INFO 17088 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:15:57.984+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:15:57.985+03:00  INFO 17088 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:15:57.986+03:00  INFO 17088 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:15:58.036+03:00  INFO 17088 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:15:58.037+03:00  INFO 17088 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 712 ms
+2026-01-16T16:15:58.102+03:00  INFO 17088 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:15:58.106+03:00  INFO 17088 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:15:58.121+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:15:58.124+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-01-16T16:15:58.201+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@364b15a0
+2026-01-16T16:15:58.202+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-01-16T16:15:58.211+03:00  WARN 17088 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:15:58.217+03:00  INFO 17088 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:15:58.452+03:00  INFO 17088 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:15:58.547+03:00  INFO 17088 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:15:58.704+03:00  INFO 17088 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:15:58.852+03:00  WARN 17088 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:15:58.871+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:15:59.099+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:15:59.117+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:15:59.126+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.871 seconds (process running for 186.135)
+2026-01-16T16:15:59.133+03:00  INFO 17088 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T16:16:02.996+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T16:16:02.997+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T16:16:02.998+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-16T16:16:03.069+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:16:03.476+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:16:03.513+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 444 ms[0m
+2026-01-16T16:16:04.203+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:16:04.503+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:16:04.534+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 330 ms[0m
+2026-01-16T16:16:05.533+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T16:16:05.537+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.html [GET] in 4 ms[0m
+2026-01-16T16:16:05.596+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T16:16:05.597+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T16:16:05.603+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T16:16:05.605+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.css [GET] in 8 ms[0m
+2026-01-16T16:16:05.608+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui.css [GET] in 6 ms[0m
+2026-01-16T16:16:05.620+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 24 ms[0m
+2026-01-16T16:16:05.638+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T16:16:05.645+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T16:16:05.651+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-initializer.js [GET] in 13 ms[0m
+2026-01-16T16:16:05.653+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 8 ms[0m
+2026-01-16T16:16:06.597+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: admin requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T16:16:06.600+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-10] Request                                  : [34mUser: admin requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-16T16:16:06.602+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: admin completed URL: /v3/api-docs/swagger-config [GET] in 5 ms[0m
+2026-01-16T16:16:06.604+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-10] Response                                 : [34mUser: admin completed URL: /swagger-ui/favicon-32x32.png [GET] in 4 ms[0m
+2026-01-16T16:16:06.719+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /v3/api-docs [GET][0m
+2026-01-16T16:16:07.109+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 347 ms
+2026-01-16T16:16:07.128+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /v3/api-docs [GET] in 409 ms[0m
+2026-01-16T16:16:12.627+03:00  INFO 17088 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:16:12.652+03:00  WARN 17088 --- [BusProject] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User not found]
+2026-01-16T16:16:42.605+03:00  INFO 17088 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:16:42.607+03:00  INFO 17088 --- [BusProject] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:16:42.771+03:00  INFO 17088 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:16:42.774+03:00  INFO 17088 --- [BusProject] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:16:42.775+03:00  INFO 17088 --- [BusProject] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-01-16T16:16:42.779+03:00  INFO 17088 --- [BusProject] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-01-16T16:16:42.899+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 17088 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:16:42.899+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:16:43.242+03:00  INFO 17088 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:16:43.297+03:00  INFO 17088 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:16:43.423+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:16:43.425+03:00  INFO 17088 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:16:43.425+03:00  INFO 17088 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:16:43.455+03:00  INFO 17088 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:16:43.456+03:00  INFO 17088 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 555 ms
+2026-01-16T16:16:43.527+03:00  INFO 17088 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:16:43.538+03:00  INFO 17088 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:16:43.574+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:16:43.585+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-01-16T16:16:43.669+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@2e4b123a
+2026-01-16T16:16:43.670+03:00  INFO 17088 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-01-16T16:16:43.680+03:00  WARN 17088 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:16:43.682+03:00  INFO 17088 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:16:43.894+03:00  INFO 17088 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:16:43.988+03:00  INFO 17088 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:16:44.131+03:00  INFO 17088 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:16:44.246+03:00  WARN 17088 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:16:44.264+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:16:44.484+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:16:44.495+03:00  INFO 17088 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:16:44.500+03:00  INFO 17088 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.633 seconds (process running for 231.51)
+2026-01-16T16:16:44.501+03:00  INFO 17088 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T16:17:00.925+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 9304 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:17:00.931+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:17:01.055+03:00  INFO 9304 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:17:01.057+03:00  INFO 9304 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:17:03.407+03:00  INFO 9304 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:17:03.674+03:00  INFO 9304 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 206 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:17:05.542+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:17:05.611+03:00  INFO 9304 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:17:05.625+03:00  INFO 9304 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:17:05.794+03:00  INFO 9304 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:17:05.796+03:00  INFO 9304 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4735 ms
+2026-01-16T16:17:06.126+03:00  INFO 9304 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:17:06.210+03:00  INFO 9304 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T16:17:06.259+03:00  INFO 9304 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:17:06.739+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:17:06.806+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T16:17:07.125+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f2d0ca6
+2026-01-16T16:17:07.128+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T16:17:07.239+03:00  WARN 9304 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:17:07.300+03:00  INFO 9304 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:17:09.209+03:00  INFO 9304 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:17:09.395+03:00  INFO 9304 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:17:10.774+03:00  INFO 9304 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:17:11.161+03:00  WARN 9304 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:17:11.224+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:17:12.606+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:17:12.692+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:17:12.748+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 12.744 seconds (process running for 13.543)
+2026-01-16T16:17:17.856+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T16:17:17.857+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T16:17:17.864+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-01-16T16:17:18.332+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:17:18.578+03:00  WARN 9304 --- [BusProject] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User not found]
+2026-01-16T16:17:21.428+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T16:17:21.530+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.html [GET] in 40 ms[0m
+2026-01-16T16:17:21.602+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T16:17:21.664+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T16:17:21.686+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T16:17:21.688+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T16:17:21.713+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T16:17:21.771+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 86 ms[0m
+2026-01-16T16:17:21.798+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 134 ms[0m
+2026-01-16T16:17:21.803+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui.css [GET] in 89 ms[0m
+2026-01-16T16:17:21.830+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-initializer.js [GET] in 142 ms[0m
+2026-01-16T16:17:21.866+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.css [GET] in 263 ms[0m
+2026-01-16T16:17:22.334+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T16:17:22.347+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: admin requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-16T16:17:22.365+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: admin completed URL: /swagger-ui/favicon-32x32.png [GET] in 19 ms[0m
+2026-01-16T16:17:22.366+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: admin completed URL: /v3/api-docs/swagger-config [GET] in 32 ms[0m
+2026-01-16T16:17:22.516+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: admin requested URL: /v3/api-docs [GET][0m
+2026-01-16T16:17:23.635+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1053 ms
+2026-01-16T16:17:23.910+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [34mUser: admin completed URL: /v3/api-docs [GET] in 1394 ms[0m
+2026-01-16T16:18:32.331+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:18:32.723+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-6] AuthenticationSuccessEvent               : [35mUser [admin] logged successfully[0m
+2026-01-16T16:18:32.944+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 614 ms[0m
+2026-01-16T16:18:34.887+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: / [GET][0m
+2026-01-16T16:18:34.889+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: / [GET] in 1 ms[0m
+2026-01-16T16:18:34.964+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /index.html [GET][0m
+2026-01-16T16:18:34.970+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /index.html [GET] in 6 ms[0m
+2026-01-16T16:18:36.061+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: admin requested URL: /products [GET][0m
+2026-01-16T16:18:36.069+03:00  WARN 9304 --- [BusProject] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products.]
+2026-01-16T16:18:36.177+03:00  INFO 9304 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /favicon.ico [GET][0m
+2026-01-16T16:18:36.196+03:00  WARN 9304 --- [BusProject] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-01-16T16:21:34.055+03:00  INFO 9304 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:21:34.091+03:00  INFO 9304 --- [BusProject] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:21:34.391+03:00  INFO 9304 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:21:34.399+03:00  INFO 9304 --- [BusProject] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:21:34.404+03:00  INFO 9304 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-16T16:21:34.424+03:00  INFO 9304 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-16T16:21:34.648+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 9304 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:21:34.649+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:21:35.434+03:00  INFO 9304 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:21:35.521+03:00  INFO 9304 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:21:36.048+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:21:36.057+03:00  INFO 9304 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:21:36.087+03:00  INFO 9304 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:21:36.186+03:00  INFO 9304 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:21:36.201+03:00  INFO 9304 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1547 ms
+2026-01-16T16:21:36.347+03:00  INFO 9304 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:21:36.358+03:00  INFO 9304 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:21:36.424+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:21:36.436+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-16T16:21:36.521+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3a59b666
+2026-01-16T16:21:36.531+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-16T16:21:36.540+03:00  WARN 9304 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:21:36.552+03:00  INFO 9304 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:21:36.809+03:00  INFO 9304 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:21:36.894+03:00  INFO 9304 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:21:37.175+03:00  INFO 9304 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:21:37.393+03:00  WARN 9304 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:21:37.569+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:21:39.027+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:21:39.063+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:21:39.106+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.538 seconds (process running for 279.903)
+2026-01-16T16:21:39.119+03:00  INFO 9304 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T16:21:40.885+03:00  INFO 9304 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-01-16T16:21:40.887+03:00  INFO 9304 --- [BusProject] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:21:41.030+03:00  INFO 9304 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:21:41.033+03:00  INFO 9304 --- [BusProject] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:21:41.034+03:00  INFO 9304 --- [BusProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-01-16T16:21:41.039+03:00  INFO 9304 --- [BusProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-01-16T16:21:41.184+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 9304 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:21:41.186+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:21:41.543+03:00  INFO 9304 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:21:41.587+03:00  INFO 9304 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:21:41.852+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:21:41.856+03:00  INFO 9304 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:21:41.858+03:00  INFO 9304 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:21:41.908+03:00  INFO 9304 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:21:41.916+03:00  INFO 9304 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 719 ms
+2026-01-16T16:21:42.029+03:00  INFO 9304 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:21:42.051+03:00  INFO 9304 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:21:42.068+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:21:42.071+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-01-16T16:21:42.151+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@51997eaa
+2026-01-16T16:21:42.152+03:00  INFO 9304 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-01-16T16:21:42.162+03:00  WARN 9304 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:21:42.167+03:00  INFO 9304 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:21:42.441+03:00  INFO 9304 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:21:42.555+03:00  INFO 9304 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:21:42.710+03:00  INFO 9304 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:21:42.846+03:00  WARN 9304 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:21:42.860+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:21:43.106+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:21:43.117+03:00  INFO 9304 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:21:43.122+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.975 seconds (process running for 283.917)
+2026-01-16T16:21:43.130+03:00  INFO 9304 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T16:21:46.570+03:00  INFO 9304 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:21:46.579+03:00  INFO 9304 --- [BusProject] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:21:46.747+03:00  INFO 9304 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:21:46.749+03:00  INFO 9304 --- [BusProject] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:21:46.750+03:00  INFO 9304 --- [BusProject] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-01-16T16:21:46.758+03:00  INFO 9304 --- [BusProject] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-01-16T16:21:46.917+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 9304 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:21:46.918+03:00  INFO 9304 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:21:47.638+03:00  INFO 9304 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:21:47.703+03:00  INFO 9304 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:21:53.788+03:00  INFO 18600 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 18600 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:21:53.792+03:00  INFO 18600 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:21:53.865+03:00  INFO 18600 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:21:53.866+03:00  INFO 18600 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:21:59.446+03:00  INFO 8812 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 8812 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:21:59.452+03:00  INFO 8812 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:21:59.555+03:00  INFO 8812 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:21:59.556+03:00  INFO 8812 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:22:01.507+03:00  INFO 8812 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:22:01.637+03:00  INFO 8812 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:22:02.839+03:00  INFO 8812 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:22:02.875+03:00  INFO 8812 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:22:02.876+03:00  INFO 8812 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:22:02.990+03:00  INFO 8812 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:22:02.992+03:00  INFO 8812 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3433 ms
+2026-01-16T16:22:03.268+03:00  INFO 8812 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:22:03.359+03:00  INFO 8812 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T16:22:03.419+03:00  INFO 8812 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:22:03.781+03:00  INFO 8812 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:22:03.852+03:00  INFO 8812 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T16:22:04.137+03:00  INFO 8812 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1733c84f
+2026-01-16T16:22:04.140+03:00  INFO 8812 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T16:22:04.202+03:00  WARN 8812 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:22:04.245+03:00  INFO 8812 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:22:06.004+03:00  INFO 8812 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:22:06.167+03:00  INFO 8812 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:22:07.449+03:00  INFO 8812 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:22:07.790+03:00  WARN 8812 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:22:07.855+03:00  INFO 8812 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:22:09.142+03:00  INFO 8812 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:22:09.211+03:00  INFO 8812 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:22:09.242+03:00  INFO 8812 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 10.563 seconds (process running for 11.084)
+2026-01-16T16:22:18.795+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T16:22:18.796+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T16:22:18.797+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-16T16:22:19.200+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:22:19.920+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [32mUser: admin completed URL: /api/auth/login [POST] in 716 ms[0m
+2026-01-16T16:22:21.768+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T16:22:21.795+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.html [GET] in 27 ms[0m
+2026-01-16T16:22:21.846+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T16:22:21.861+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T16:22:21.868+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T16:22:21.880+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.css [GET] in 33 ms[0m
+2026-01-16T16:22:21.902+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 42 ms[0m
+2026-01-16T16:22:21.919+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui.css [GET] in 51 ms[0m
+2026-01-16T16:22:21.980+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T16:22:21.988+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T16:22:22.005+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 17 ms[0m
+2026-01-16T16:22:22.029+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-initializer.js [GET] in 47 ms[0m
+2026-01-16T16:22:22.961+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: admin requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T16:22:22.967+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-10] Request                                  : [34mUser: admin requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-16T16:22:22.980+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-10] Response                                 : [34mUser: admin completed URL: /swagger-ui/favicon-32x32.png [GET] in 12 ms[0m
+2026-01-16T16:22:22.980+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: admin completed URL: /v3/api-docs/swagger-config [GET] in 19 ms[0m
+2026-01-16T16:22:23.067+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /v3/api-docs [GET][0m
+2026-01-16T16:22:23.815+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 731 ms
+2026-01-16T16:22:23.935+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /v3/api-docs [GET] in 869 ms[0m
+2026-01-16T16:26:06.348+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:26:06.378+03:00  WARN 8812 --- [BusProject] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User not found]
+2026-01-16T16:26:11.746+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:26:11.763+03:00  WARN 8812 --- [BusProject] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: User not found]
+2026-01-16T16:27:37.612+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-10] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:27:37.942+03:00  WARN 8812 --- [BusProject] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.BadCredentialsException: Íוגונםûו ףקועםûו האםםûו ןמכüחמגאעוכÿ]
+2026-01-16T16:27:44.285+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [32mUser: admin requested URL: /api/auth/login [POST][0m
+2026-01-16T16:27:44.652+03:00  INFO 8812 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [32mUser: manager completed URL: /api/auth/login [POST] in 367 ms[0m
+2026-01-16T16:30:58.645+03:00  INFO 8812 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:30:58.653+03:00  INFO 8812 --- [BusProject] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:30:59.040+03:00  INFO 8812 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:30:59.057+03:00  INFO 8812 --- [BusProject] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:30:59.068+03:00  INFO 8812 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-16T16:30:59.101+03:00  INFO 8812 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-16T16:31:00.841+03:00  INFO 8812 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 8812 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:31:00.865+03:00  INFO 8812 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:31:02.369+03:00  INFO 8812 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:31:02.471+03:00  INFO 8812 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:31:02.816+03:00  INFO 8812 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:31:02.820+03:00  INFO 8812 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:31:02.821+03:00  INFO 8812 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:31:02.895+03:00  INFO 8812 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:31:02.900+03:00  INFO 8812 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2003 ms
+2026-01-16T16:31:03.064+03:00  INFO 8812 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:31:03.077+03:00  INFO 8812 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:31:03.131+03:00  INFO 8812 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:31:03.138+03:00  INFO 8812 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-16T16:31:03.270+03:00  INFO 8812 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7d453655
+2026-01-16T16:31:03.300+03:00  INFO 8812 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-16T16:31:03.313+03:00  WARN 8812 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:31:03.317+03:00  INFO 8812 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:31:11.218+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 14240 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:31:11.228+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:31:11.385+03:00  INFO 14240 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:31:11.387+03:00  INFO 14240 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T16:31:13.139+03:00  INFO 14240 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:31:13.258+03:00  INFO 14240 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:31:14.302+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:31:14.332+03:00  INFO 14240 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:31:14.333+03:00  INFO 14240 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:31:14.439+03:00  INFO 14240 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:31:14.441+03:00  INFO 14240 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3051 ms
+2026-01-16T16:31:14.704+03:00  INFO 14240 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:31:14.792+03:00  INFO 14240 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T16:31:14.850+03:00  INFO 14240 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:31:15.173+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:31:15.265+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T16:31:15.512+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24198524
+2026-01-16T16:31:15.514+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T16:31:15.587+03:00  WARN 14240 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:31:15.625+03:00  INFO 14240 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:31:17.237+03:00  INFO 14240 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:31:17.375+03:00  INFO 14240 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:31:18.306+03:00  INFO 14240 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:31:18.611+03:00  WARN 14240 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:31:18.661+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:31:19.436+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:31:19.526+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:31:19.576+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 9.184 seconds (process running for 9.748)
+2026-01-16T16:31:48.597+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T16:31:48.598+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T16:31:48.600+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-16T16:31:49.067+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: manager requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T16:31:49.170+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: manager completed URL: /swagger-ui/index.html [GET] in 67 ms[0m
+2026-01-16T16:31:49.193+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: manager requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T16:31:49.200+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: manager requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T16:31:49.227+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: manager completed URL: /swagger-ui/index.css [GET] in 34 ms[0m
+2026-01-16T16:31:49.233+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: manager completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 33 ms[0m
+2026-01-16T16:31:49.266+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: manager requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T16:31:49.285+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: manager completed URL: /swagger-ui/swagger-ui.css [GET] in 19 ms[0m
+2026-01-16T16:31:49.321+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: manager requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T16:31:49.330+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: manager requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T16:31:49.343+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: manager completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 13 ms[0m
+2026-01-16T16:31:49.378+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: manager completed URL: /swagger-ui/swagger-initializer.js [GET] in 58 ms[0m
+2026-01-16T16:31:50.534+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: manager requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T16:31:50.594+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: manager requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-16T16:31:50.662+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: manager completed URL: /swagger-ui/favicon-32x32.png [GET] in 68 ms[0m
+2026-01-16T16:31:50.726+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: manager completed URL: /v3/api-docs/swagger-config [GET] in 192 ms[0m
+2026-01-16T16:31:50.783+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: manager requested URL: /v3/api-docs [GET][0m
+2026-01-16T16:31:51.741+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 930 ms
+2026-01-16T16:31:51.900+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [34mUser: manager completed URL: /v3/api-docs [GET] in 1117 ms[0m
+2026-01-16T16:32:09.922+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [32mUser: manager requested URL: /api/auth/login [POST][0m
+2026-01-16T16:32:10.505+03:00  INFO 14240 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [32mUser: manager completed URL: /api/auth/login [POST] in 584 ms[0m
+2026-01-16T16:34:17.082+03:00  INFO 14240 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:34:17.097+03:00  INFO 14240 --- [BusProject] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:34:17.281+03:00  INFO 14240 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:34:17.291+03:00  INFO 14240 --- [BusProject] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:34:17.298+03:00  INFO 14240 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-16T16:34:17.315+03:00  INFO 14240 --- [BusProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-16T16:34:17.523+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 14240 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:34:17.533+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:34:18.013+03:00  INFO 14240 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:34:18.073+03:00  INFO 14240 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:34:18.313+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:34:18.316+03:00  INFO 14240 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:34:18.318+03:00  INFO 14240 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:34:18.378+03:00  INFO 14240 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:34:18.380+03:00  INFO 14240 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 837 ms
+2026-01-16T16:34:18.476+03:00  INFO 14240 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:34:18.482+03:00  INFO 14240 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:34:18.502+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:34:18.509+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-16T16:34:18.579+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@224d2b5e
+2026-01-16T16:34:18.580+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-16T16:34:18.593+03:00  WARN 14240 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:34:18.597+03:00  INFO 14240 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:34:19.431+03:00  INFO 14240 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:34:19.545+03:00  INFO 14240 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:34:20.296+03:00  INFO 14240 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:34:20.517+03:00  WARN 14240 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:34:20.543+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:34:20.893+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:34:20.940+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:34:20.947+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.532 seconds (process running for 191.118)
+2026-01-16T16:34:20.955+03:00  INFO 14240 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T16:34:37.614+03:00  INFO 14240 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:34:37.617+03:00  INFO 14240 --- [BusProject] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:34:37.772+03:00  INFO 14240 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:34:37.775+03:00  INFO 14240 --- [BusProject] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:34:37.776+03:00  INFO 14240 --- [BusProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-01-16T16:34:37.783+03:00  INFO 14240 --- [BusProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-01-16T16:34:37.934+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 14240 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:34:37.935+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:34:38.524+03:00  INFO 14240 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:34:38.599+03:00  INFO 14240 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:34:38.808+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T16:34:38.811+03:00  INFO 14240 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T16:34:38.814+03:00  INFO 14240 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T16:34:38.857+03:00  INFO 14240 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T16:34:38.857+03:00  INFO 14240 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2026-01-16T16:34:38.930+03:00  INFO 14240 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T16:34:38.933+03:00  INFO 14240 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T16:34:38.953+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T16:34:38.956+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-01-16T16:34:39.037+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@47a02599
+2026-01-16T16:34:39.037+03:00  INFO 14240 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-01-16T16:34:39.053+03:00  WARN 14240 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T16:34:39.055+03:00  INFO 14240 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T16:34:39.303+03:00  INFO 14240 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T16:34:39.381+03:00  INFO 14240 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:34:39.621+03:00  INFO 14240 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T16:34:39.803+03:00  WARN 14240 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T16:34:39.836+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T16:34:40.250+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T16:34:40.297+03:00  INFO 14240 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T16:34:40.323+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.444 seconds (process running for 210.494)
+2026-01-16T16:34:40.327+03:00  INFO 14240 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T16:41:13.495+03:00  INFO 14240 --- [BusProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-16T16:41:13.497+03:00  INFO 14240 --- [BusProject] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-16T16:41:13.644+03:00  INFO 14240 --- [BusProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-16T16:41:13.646+03:00  INFO 14240 --- [BusProject] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T16:41:13.648+03:00  INFO 14240 --- [BusProject] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-01-16T16:41:13.654+03:00  INFO 14240 --- [BusProject] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-01-16T16:41:13.793+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 14240 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:41:13.795+03:00  INFO 14240 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:41:14.478+03:00  INFO 14240 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T16:41:14.599+03:00  INFO 14240 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 6 JPA repository interfaces.
+2026-01-16T16:41:32.366+03:00  INFO 18788 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 18788 (C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Èכüסאפ in C:\Users\Èכüסאפ\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T16:41:32.370+03:00  INFO 18788 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T16:41:32.460+03:00  INFO 18788 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T16:41:32.462+03:00  INFO 18788 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'

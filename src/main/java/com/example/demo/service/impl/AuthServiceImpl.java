@@ -32,6 +32,7 @@ import com.example.demo.util.CookieUtil;
 
 import lombok.RequiredArgsConstructor;
 
+
 @Service
 @RequiredArgsConstructor
 public class AuthServiceImpl implements AuthService {
@@ -48,6 +49,9 @@ public class AuthServiceImpl implements AuthService {
     private final JwtTokenProviderImpl tokenProvider;
     private final CookieUtil cookieUtil;
     private final AuthenticationManager authenticationManager;
+
+    private final com.example.demo.service.TelegramLogService telegramLogService;
+
     @Override
     public ResponseEntity<LoginResponse> login(LoginRequest loginRequest, String accessToken, String refreshToken) {
         Authentication authentication = 
@@ -58,6 +62,9 @@ public class AuthServiceImpl implements AuthService {
         );
         
         String username = loginRequest.username();
+
+        telegramLogService.send("LOGIN OK: user=" + username);
+
         User user = userRepository.findByUsername(username).orElseThrow(
                 () -> new AppException(HttpStatus.NOT_FOUND, "User not found")
         );

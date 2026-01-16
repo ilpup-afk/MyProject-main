@@ -1,4 +1,4 @@
-2025-12-10T12:50:37.464+03:00  INFO 8224 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 8224 (C:\Users\Ильсаф\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Ильсаф in C:\Users\Ильсаф\Downloads\BusProject-main (1)\MyProject-main)
+2025-12-10T12:50:37.464+03:00  INFO 8224 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 8224 (C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\Downloads\BusProject-main (1)\MyProject-main\target\classes started by пїЅпїЅпїЅпїЅпїЅпїЅ in C:\Users\пїЅпїЅпїЅпїЅпїЅпїЅ\Downloads\BusProject-main (1)\MyProject-main)
 2025-12-10T12:50:37.476+03:00  INFO 8224 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
 2025-12-10T12:50:37.624+03:00  INFO 8224 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2025-12-10T12:50:37.626+03:00  INFO 8224 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -27,7 +27,7 @@
 	Maximum pool size: undefined/unknown
 2025-12-10T12:50:50.179+03:00  INFO 8224 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2025-12-10T12:50:50.404+03:00  WARN 8224 --- [BusProject] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2025-12-10T12:50:50.405+03:00  WARN 8224 --- [BusProject] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : ограничение "uki082hk39boonfp8g1uq8ahhxl" в таблице "permission" не существует, пропускается
+2025-12-10T12:50:50.405+03:00  WARN 8224 --- [BusProject] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "uki082hk39boonfp8g1uq8ahhxl" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ "permission" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 2025-12-10T12:50:50.516+03:00  INFO 8224 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-12-10T12:50:51.620+03:00  INFO 8224 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
 2025-12-10T12:50:52.363+03:00  WARN 8224 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
@@ -57,3 +57,63 @@
 2025-12-10T12:51:25.603+03:00  INFO 8224 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs [GET][0m
 2025-12-10T12:51:27.599+03:00  INFO 8224 --- [BusProject] [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1971 ms
 2025-12-10T12:51:27.919+03:00  INFO 8224 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs [GET] in 2320 ms[0m
+2025-12-10T13:10:52.452+03:00  WARN 8224 --- [BusProject] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s270ms690пїЅs300ns).
+2025-12-10T13:44:38.183+03:00  WARN 8224 --- [BusProject] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m45s560ms513пїЅs600ns).
+2025-12-10T13:46:37.487+03:00  INFO 9056 --- [BusProject] [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests v1.0.0 using Java 17.0.16 with PID 9056 (started by РР»СЊСЃР°С„ in C:\Users\РР»СЊСЃР°С„\Downloads\BusProject-main (1)\MyProject-main)
+2025-12-10T13:46:37.490+03:00  INFO 9056 --- [BusProject] [main] com.example.demo.DemoApplicationTests    : The following 1 profile is active: "dev"
+2025-12-10T13:46:39.890+03:00  INFO 9056 --- [BusProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-10T13:46:40.039+03:00  INFO 9056 --- [BusProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 6 JPA repository interfaces.
+2025-12-10T13:46:41.356+03:00  INFO 9056 --- [BusProject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-10T13:46:41.540+03:00  INFO 9056 --- [BusProject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-10T13:46:41.611+03:00  INFO 9056 --- [BusProject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-10T13:46:42.313+03:00  INFO 9056 --- [BusProject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-10T13:46:42.369+03:00  INFO 9056 --- [BusProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-10T13:46:42.748+03:00  INFO 9056 --- [BusProject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1450ffa3
+2025-12-10T13:46:42.751+03:00  INFO 9056 --- [BusProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-10T13:46:42.796+03:00  WARN 9056 --- [BusProject] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-10T13:46:42.834+03:00  INFO 9056 --- [BusProject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-10T13:46:44.869+03:00  INFO 9056 --- [BusProject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-10T13:46:45.059+03:00  INFO 9056 --- [BusProject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-10T13:46:45.664+03:00  INFO 9056 --- [BusProject] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-12-10T13:46:45.903+03:00  WARN 9056 --- [BusProject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-10T13:46:45.943+03:00  INFO 9056 --- [BusProject] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-12-10T13:46:46.896+03:00  INFO 9056 --- [BusProject] [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 10.173 seconds (process running for 11.822)
+2025-12-10T13:46:48.670+03:00  INFO 9056 --- [BusProject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-10T13:46:48.680+03:00  INFO 9056 --- [BusProject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-10T13:46:48.698+03:00  INFO 9056 --- [BusProject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-10T13:47:14.101+03:00  INFO 4760 --- [BusProject] [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests v1.0.0 using Java 17.0.16 with PID 4760 (started by РР»СЊСЃР°С„ in C:\Users\РР»СЊСЃР°С„\Downloads\BusProject-main (1)\MyProject-main)
+2025-12-10T13:47:14.105+03:00  INFO 4760 --- [BusProject] [main] com.example.demo.DemoApplicationTests    : The following 1 profile is active: "dev"
+2025-12-10T13:47:15.988+03:00  INFO 4760 --- [BusProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-10T13:47:16.170+03:00  INFO 4760 --- [BusProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 6 JPA repository interfaces.
+2025-12-10T13:47:17.172+03:00  INFO 4760 --- [BusProject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-10T13:47:17.289+03:00  INFO 4760 --- [BusProject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-10T13:47:17.357+03:00  INFO 4760 --- [BusProject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-10T13:47:17.971+03:00  INFO 4760 --- [BusProject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-10T13:47:18.036+03:00  INFO 4760 --- [BusProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-10T13:47:18.389+03:00  INFO 4760 --- [BusProject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d718248
+2025-12-10T13:47:18.392+03:00  INFO 4760 --- [BusProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-10T13:47:18.452+03:00  WARN 4760 --- [BusProject] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-10T13:47:18.495+03:00  INFO 4760 --- [BusProject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-10T13:47:20.381+03:00  INFO 4760 --- [BusProject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-10T13:47:20.564+03:00  INFO 4760 --- [BusProject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-10T13:47:21.223+03:00  INFO 4760 --- [BusProject] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-12-10T13:47:21.567+03:00  WARN 4760 --- [BusProject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-10T13:47:21.609+03:00  INFO 4760 --- [BusProject] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-12-10T13:47:22.900+03:00  INFO 4760 --- [BusProject] [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 9.743 seconds (process running for 11.25)
+2025-12-10T13:47:23.650+03:00  INFO 4760 --- [BusProject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-10T13:47:23.656+03:00  INFO 4760 --- [BusProject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-10T13:47:23.672+03:00  INFO 4760 --- [BusProject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -38,10 +38,10 @@ jwt:
             day: 7
             second: 604800
 upload:
-    path: C:\Users\Ильсаф\Downloads
+    path: "C:\\Users\\Ильсаф\\uploads"
 logging:
     file:
-        name: sysmon.log
+        name: busproject.log
 server:
     port: 8080
 ---
@@ -51,3 +51,13 @@ spring:
             on-profile: prod
 server:
     port: 9001
+
+telegram:
+    enabled: true
+    bot:
+        token: "8523439486:AAE-cqcEKUMG0cniEoR_c7tSkochUHCnt7c"
+    chatId: "635973725"
+
+    logging:
+    level:
+        root: ERROR
