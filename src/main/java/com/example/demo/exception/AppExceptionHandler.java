@@ -8,10 +8,20 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 
+import com.example.demo.service.TelegramLogService;
+
+import lombok.RequiredArgsConstructor;
+
 @RestControllerAdvice
+@RequiredArgsConstructor
 public class AppExceptionHandler {
+    
+    private final TelegramLogService telegramLogService;
+    
     @ExceptionHandler(AppException.class)
     public ResponseEntity<ErrorDetails> appExceptionHandler(AppException e, WebRequest request) {
+        telegramLogService.send("ERROR " + e.getStatus().value() + ": " + e.getMessage());
+        
         ErrorDetails error = new ErrorDetails(
                 LocalDateTime.now(),
                 e.getStatus().value(),
@@ -21,8 +31,11 @@ public class AppExceptionHandler {
         );
         return new ResponseEntity<>(error, e.getStatus());
     }
+    
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorDetails> globalExceptionHandler(Exception e, WebRequest request) {
+        telegramLogService.send("CRITICAL ERROR 500: " + e.getMessage());
+        
         ErrorDetails error = new ErrorDetails(
                 LocalDateTime.now(),
                 HttpStatus.INTERNAL_SERVER_ERROR.value(),

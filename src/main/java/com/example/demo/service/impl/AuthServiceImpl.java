@@ -63,8 +63,6 @@ public class AuthServiceImpl implements AuthService {
         
         String username = loginRequest.username();
 
-        telegramLogService.send("LOGIN OK: user=" + username);
-
         User user = userRepository.findByUsername(username).orElseThrow(
                 () -> new AppException(HttpStatus.NOT_FOUND, "User not found")
         );
