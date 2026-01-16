@@ -1853,3 +1853,97 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2026-01-16T20:43:19.559+03:00  INFO 8940 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2026-01-16T20:43:19.641+03:00  INFO 8940 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 5.655 seconds (process running for 173.504)
 2026-01-16T20:43:19.740+03:00  INFO 8940 --- [BusProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-16T20:45:06.692+03:00  INFO 5364 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 5364 (C:\Users\Ильсаф\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Ильсаф in C:\Users\Ильсаф\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T20:45:06.707+03:00  INFO 5364 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T20:45:06.958+03:00  INFO 5364 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T20:45:06.972+03:00  INFO 5364 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-16T20:45:09.441+03:00  INFO 5364 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-16T20:45:09.675+03:00  INFO 5364 --- [BusProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 193 ms. Found 6 JPA repository interfaces.
+2026-01-16T20:45:11.836+03:00  INFO 5364 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-16T20:45:11.883+03:00  INFO 5364 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-16T20:45:11.887+03:00  INFO 5364 --- [BusProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.49]
+2026-01-16T20:45:12.235+03:00  INFO 5364 --- [BusProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-16T20:45:12.236+03:00  INFO 5364 --- [BusProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5261 ms
+2026-01-16T20:45:12.623+03:00  INFO 5364 --- [BusProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-16T20:45:12.757+03:00  INFO 5364 --- [BusProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2026-01-16T20:45:12.846+03:00  INFO 5364 --- [BusProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-16T20:45:13.516+03:00  INFO 5364 --- [BusProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-16T20:45:13.620+03:00  INFO 5364 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-16T20:45:14.018+03:00  INFO 5364 --- [BusProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@281c783f
+2026-01-16T20:45:14.026+03:00  INFO 5364 --- [BusProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-16T20:45:14.117+03:00  WARN 5364 --- [BusProject] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-16T20:45:14.180+03:00  INFO 5364 --- [BusProject] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-16T20:45:16.473+03:00  INFO 5364 --- [BusProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-16T20:45:16.677+03:00  INFO 5364 --- [BusProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-16T20:45:18.413+03:00  INFO 5364 --- [BusProject] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-16T20:45:18.883+03:00  WARN 5364 --- [BusProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-16T20:45:18.992+03:00  INFO 5364 --- [BusProject] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-16T20:45:20.577+03:00  INFO 5364 --- [BusProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-16T20:45:20.689+03:00  INFO 5364 --- [BusProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-16T20:45:20.748+03:00  INFO 5364 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 15.157 seconds (process running for 16.022)
+2026-01-16T20:45:37.720+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-16T20:45:37.721+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-16T20:45:37.723+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-16T20:45:39.251+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T20:45:39.423+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T20:45:39.429+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T20:45:39.460+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T20:45:39.461+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T20:45:39.490+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.html [GET] in 83 ms[0m
+2026-01-16T20:45:39.497+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.css [GET] in 74 ms[0m
+2026-01-16T20:45:39.525+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 94 ms[0m
+2026-01-16T20:45:39.609+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 148 ms[0m
+2026-01-16T20:45:39.692+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-initializer.js [GET] in 231 ms[0m
+2026-01-16T20:45:39.775+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T20:45:39.801+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui.css [GET] in 26 ms[0m
+2026-01-16T20:45:39.956+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.html [GET][0m
+2026-01-16T20:45:39.963+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-6] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.html [GET] in 7 ms[0m
+2026-01-16T20:45:41.346+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-8] Request                                  : [34mUser: admin requested URL: /swagger-ui/index.css [GET][0m
+2026-01-16T20:45:41.352+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-7] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-16T20:45:41.376+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-9] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-16T20:45:41.394+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-10] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-16T20:45:41.420+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: admin requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-16T20:45:41.427+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-8] Response                                 : [34mUser: admin completed URL: /swagger-ui/index.css [GET] in 81 ms[0m
+2026-01-16T20:45:41.559+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-7] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui.css [GET] in 207 ms[0m
+2026-01-16T20:45:41.611+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-10] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 216 ms[0m
+2026-01-16T20:45:41.659+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-9] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 283 ms[0m
+2026-01-16T20:45:41.688+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: admin completed URL: /swagger-ui/swagger-initializer.js [GET] in 268 ms[0m
+2026-01-16T20:45:42.244+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [34mUser: admin requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-16T20:45:42.246+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [34mUser: admin requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-16T20:45:42.256+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-3] Response                                 : [34mUser: admin completed URL: /swagger-ui/favicon-32x32.png [GET] in 10 ms[0m
+2026-01-16T20:45:42.510+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-4] Response                                 : [34mUser: admin completed URL: /v3/api-docs/swagger-config [GET] in 266 ms[0m
+2026-01-16T20:45:42.706+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /v3/api-docs [GET][0m
+2026-01-16T20:45:44.110+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1356 ms
+2026-01-16T20:45:44.291+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /v3/api-docs [GET] in 1585 ms[0m
+2026-01-16T20:46:02.719+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] Request                                  : [34mUser: admin requested URL: /api/sensors/1 [GET][0m
+2026-01-16T20:46:02.795+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-1] Response                                 : [34mUser: admin completed URL: /api/sensors/1 [GET] in 76 ms[0m
+2026-01-16T20:46:37.150+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-6] Request                                  : [32mUser: admin requested URL: /api/sensors [POST][0m
+2026-01-16T20:46:37.261+03:00  WARN 5364 --- [BusProject] [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2026-01-16T20:46:37.261+03:00 ERROR 5364 --- [BusProject] [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: INSERT или UPDATE в таблице "sensor_data" нарушает ограничение внешнего ключа "fkrpctosfkuuc3p4pin4n9wi4j7"
+  Подробности: Ключ (bus_id)=(5) отсутствует в таблице "products".
+2026-01-16T20:46:38.220+03:00  WARN 5364 --- [BusProject] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [ОШИБКА: INSERT или UPDATE в таблице "sensor_data" нарушает ограничение внешнего ключа "fkrpctosfkuuc3p4pin4n9wi4j7"<EOL>  Подробности: Ключ (bus_id)=(5) отсутствует в таблице "products".] [insert into sensor_data (anomaly,bus_id,file_path,sensor_type,timestamp,value) values (?,?,?,?,?,?)]; SQL [insert into sensor_data (anomaly,bus_id,file_path,sensor_type,timestamp,value) values (?,?,?,?,?,?)]; constraint [null]]
+2026-01-16T20:47:28.161+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-2] Request                                  : [34mUser: admin requested URL: /api/buses [GET][0m
+2026-01-16T20:47:28.258+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-2] Response                                 : [34mUser: admin completed URL: /api/buses [GET] in 98 ms[0m
+2026-01-16T20:47:40.631+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-3] Request                                  : [32mUser: admin requested URL: /api/sensors [POST][0m
+2026-01-16T20:47:40.659+03:00  WARN 5364 --- [BusProject] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2026-01-16T20:47:40.659+03:00 ERROR 5364 --- [BusProject] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: INSERT или UPDATE в таблице "sensor_data" нарушает ограничение внешнего ключа "fkrpctosfkuuc3p4pin4n9wi4j7"
+  Подробности: Ключ (bus_id)=(8) отсутствует в таблице "products".
+2026-01-16T20:47:40.916+03:00  WARN 5364 --- [BusProject] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [ОШИБКА: INSERT или UPDATE в таблице "sensor_data" нарушает ограничение внешнего ключа "fkrpctosfkuuc3p4pin4n9wi4j7"<EOL>  Подробности: Ключ (bus_id)=(8) отсутствует в таблице "products".] [insert into sensor_data (anomaly,bus_id,file_path,sensor_type,timestamp,value) values (?,?,?,?,?,?)]; SQL [insert into sensor_data (anomaly,bus_id,file_path,sensor_type,timestamp,value) values (?,?,?,?,?,?)]; constraint [null]]
+2026-01-16T20:48:38.141+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-4] Request                                  : [32mUser: admin requested URL: /api/sensors [POST][0m
+2026-01-16T20:48:38.159+03:00  WARN 5364 --- [BusProject] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2026-01-16T20:48:38.167+03:00 ERROR 5364 --- [BusProject] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : ОШИБКА: INSERT или UPDATE в таблице "sensor_data" нарушает ограничение внешнего ключа "fkrpctosfkuuc3p4pin4n9wi4j7"
+  Подробности: Ключ (bus_id)=(5) отсутствует в таблице "products".
+2026-01-16T20:48:38.371+03:00  WARN 5364 --- [BusProject] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [ОШИБКА: INSERT или UPDATE в таблице "sensor_data" нарушает ограничение внешнего ключа "fkrpctosfkuuc3p4pin4n9wi4j7"<EOL>  Подробности: Ключ (bus_id)=(5) отсутствует в таблице "products".] [insert into sensor_data (anomaly,bus_id,file_path,sensor_type,timestamp,value) values (?,?,?,?,?,?)]; SQL [insert into sensor_data (anomaly,bus_id,file_path,sensor_type,timestamp,value) values (?,?,?,?,?,?)]; constraint [null]]
+2026-01-16T20:54:16.659+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-5] Request                                  : [34mUser: admin requested URL: /api/auth/info [GET][0m
+2026-01-16T20:54:16.778+03:00  INFO 5364 --- [BusProject] [http-nio-8080-exec-5] Response                                 : [34mUser: admin completed URL: /api/auth/info [GET] in 120 ms[0m
+2026-01-16T21:25:43.033+03:00  INFO 11384 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 11384 (C:\Users\Ильсаф\Downloads\BusProject-main (1)\MyProject-main\target\classes started by Ильсаф in C:\Users\Ильсаф\Downloads\BusProject-main (1)\MyProject-main)
+2026-01-16T21:25:43.043+03:00  INFO 11384 --- [BusProject] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-16T21:25:43.173+03:00  INFO 11384 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-16T21:25:43.188+03:00  INFO 11384 --- [BusProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
