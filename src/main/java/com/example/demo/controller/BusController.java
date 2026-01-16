@@ -2,7 +2,10 @@ package com.example.demo.controller;
 
 import com.example.demo.model.Bus;
 import com.example.demo.service.BusService;
+import com.example.demo.exception.AppException;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/buses")
 public class BusController {
+    
     @Autowired
     private BusService busService;
 
@@ -26,13 +30,20 @@ public class BusController {
         return ResponseEntity.ok(createdBus);
     }
 
+    @GetMapping("{id}")
+    public ResponseEntity<Bus> getBusById(@PathVariable Long id) {
+        Bus bus = busService.getBusById(id)
+            .orElseThrow(() -> new AppException(HttpStatus.NOT_FOUND, "Bus with id " + id + " not found"));
+        return ResponseEntity.ok(bus);
+    }
+
     @PutMapping("{id}")
     public ResponseEntity<Bus> updateBus(@PathVariable Long id, @RequestBody Bus bus) {
         Bus updatedBus = busService.updateBus(id, bus);
         if (updatedBus != null) {
             return ResponseEntity.ok(updatedBus);
         } else {
-            return ResponseEntity.notFound().build();
+            throw new AppException(HttpStatus.NOT_FOUND, "Bus with id " + id + " not found");
         }
     }
 
@@ -42,7 +53,7 @@ public class BusController {
         if (deleted) {
             return ResponseEntity.noContent().build();
         } else {
-            return ResponseEntity.notFound().build();
+            throw new AppException(HttpStatus.NOT_FOUND, "Bus with id " + id + " not found");
         }
     }
 }

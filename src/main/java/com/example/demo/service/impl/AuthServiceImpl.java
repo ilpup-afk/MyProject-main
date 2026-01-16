@@ -50,8 +50,6 @@ public class AuthServiceImpl implements AuthService {
     private final CookieUtil cookieUtil;
     private final AuthenticationManager authenticationManager;
 
-    private final com.example.demo.service.TelegramLogService telegramLogService;
-
     @Override
     public ResponseEntity<LoginResponse> login(LoginRequest loginRequest, String accessToken, String refreshToken) {
         Authentication authentication = 

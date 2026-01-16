@@ -1,16 +1,19 @@
 package com.example.demo.service;
 
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
 
+import lombok.RequiredArgsConstructor;
+
 @Service
+@RequiredArgsConstructor
 public class TelegramLogService {
 
-    private final RestClient restClient;
+    private final RestClient.Builder restClientBuilder;
 
     @Value("${telegram.enabled:false}")
     private boolean enabled;
@@ -18,14 +21,8 @@ public class TelegramLogService {
     @Value("${telegram.bot.token:}")
     private String token;
 
-    // ВАЖНО: если в yml ключ telegram.chatId, то здесь telegram.chatId
-    // Если хочешь telegram.chat.id — тогда в yml делай telegram: chat: { id: ... }
     @Value("${telegram.chatId:}")
     private String chatId;
-
-    public TelegramLogService(RestClient.Builder builder) {
-        this.restClient = builder.build();
-    }
 
     public void send(String text) {
         if (!enabled) return;
@@ -33,16 +30,22 @@ public class TelegramLogService {
         if (chatId == null || chatId.isBlank()) return;
         if (text == null || text.isBlank()) return;
 
-        String encoded = URLEncoder.encode(text, StandardCharsets.UTF_8);
+        String url = "https://api.telegram.org/bot" + token + "/sendMessage";
 
-        String url = "https://api.telegram.org/bot" + token
-                + "/sendMessage?chat_id=" + chatId
-                + "&text=" + encoded;
+        Map<String, Object> body = new HashMap<>();
+        body.put("chat_id", chatId);
+        body.put("text", text);
+        body.put("parse_mode", "HTML");
 
         try {
-            restClient.get().uri(url).retrieve().toBodilessEntity();
+            restClientBuilder.build()
+                    .post()
+                    .uri(url)
+                    .body(body)
+                    .retrieve()
+                    .toBodilessEntity();
         } catch (Exception ignored) {
-            // Telegram не должен ломать приложение
+
         }
     }
 }

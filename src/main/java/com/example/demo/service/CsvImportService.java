@@ -56,7 +56,7 @@ public class CsvImportService {
 
         if (!valid.isEmpty()) {
             try {
-                sensorService.saveAllSensorData(valid);
+                sensorService.saveAll(valid);
             } catch (Exception e) {
                 String msg = "Failed to save sensor data: " + e.getMessage();
                 errors.add(msg);
