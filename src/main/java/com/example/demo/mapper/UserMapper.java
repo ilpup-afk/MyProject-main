@@ -25,10 +25,13 @@ public class UserMapper {
         return user;
     }
     public static UserLoggedDto userToUserLoggedDto(User user) {
-        return new UserLoggedDto(
-                user.getUsername(),
-                user.getRole().getAuthority(),
-                user.getRole().getPermissions().stream().map(Permission::getAuthority).collect(Collectors.toSet())
-        );
-    }
+    return new UserLoggedDto(
+            user.getId(),  // 👈 добавь id
+            user.getUsername(),
+            user.getRole().getAuthority(),
+            user.getRole().getPermissions().stream()
+                    .map(Permission::getAuthority)
+                    .collect(Collectors.toSet())
+    );
+}
 }
